@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.14)
+project(MyCode)
+
+set(CMAKE_CXX_STANDARD 14)
+set(debug)
+include_directories()
+add_executable(A sheep.cpp )
+add_executable(B multiply.cpp)
+add_executable(C hasSubtree.cpp)
+add_executable(D isNumeric.cpp)
+add_executable(E fristChar.cpp)
+add_executable(F circleList.cpp)
