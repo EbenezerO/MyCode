@@ -188,17 +188,30 @@ E/fast:
 .PHONY : E/fast
 
 #=============================================================================
-# Target rules for targets named F
+# Target rules for targets named G
 
 # Build rule for target.
-F : cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 F
-.PHONY : F
+G : cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 G
+.PHONY : G
 
 # fast build rule for target.
-F/fast:
-	$(MAKE) -f Leecode\CMakeFiles\F.dir\build.make Leecode/CMakeFiles/F.dir/build
-.PHONY : F/fast
+G/fast:
+	$(MAKE) -f Leecode\CMakeFiles\G.dir\build.make Leecode/CMakeFiles/G.dir/build
+.PHONY : G/fast
+
+#=============================================================================
+# Target rules for targets named H
+
+# Build rule for target.
+H : cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 H
+.PHONY : H
+
+# fast build rule for target.
+H/fast:
+	$(MAKE) -f Leecode\CMakeFiles\H.dir\build.make Leecode/CMakeFiles/H.dir/build
+.PHONY : H/fast
 
 main.obj: main.cpp.obj
 
@@ -241,7 +254,8 @@ help:
 	@echo ... C
 	@echo ... D
 	@echo ... E
-	@echo ... F
+	@echo ... G
+	@echo ... H
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

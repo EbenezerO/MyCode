@@ -185,46 +185,88 @@ E/fast:
 .PHONY : E/fast
 
 # Convenience name for target.
-Leecode/CMakeFiles/F.dir/rule:
-	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 Leecode/CMakeFiles/F.dir/rule
-.PHONY : Leecode/CMakeFiles/F.dir/rule
+Leecode/CMakeFiles/G.dir/rule:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 Leecode/CMakeFiles/G.dir/rule
+.PHONY : Leecode/CMakeFiles/G.dir/rule
 
 # Convenience name for target.
-F : Leecode/CMakeFiles/F.dir/rule
+G : Leecode/CMakeFiles/G.dir/rule
 
-.PHONY : F
+.PHONY : G
 
 # fast build rule for target.
-F/fast:
-	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\F.dir\build.make Leecode/CMakeFiles/F.dir/build
-.PHONY : F/fast
+G/fast:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\G.dir\build.make Leecode/CMakeFiles/G.dir/build
+.PHONY : G/fast
 
-circleList.obj: circleList.cpp.obj
+# Convenience name for target.
+Leecode/CMakeFiles/H.dir/rule:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 Leecode/CMakeFiles/H.dir/rule
+.PHONY : Leecode/CMakeFiles/H.dir/rule
 
-.PHONY : circleList.obj
+# Convenience name for target.
+H : Leecode/CMakeFiles/H.dir/rule
+
+.PHONY : H
+
+# fast build rule for target.
+H/fast:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\H.dir\build.make Leecode/CMakeFiles/H.dir/build
+.PHONY : H/fast
+
+IsContinuous.obj: IsContinuous.cpp.obj
+
+.PHONY : IsContinuous.obj
 
 # target to build an object file
-circleList.cpp.obj:
-	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\F.dir\build.make Leecode/CMakeFiles/F.dir/circleList.cpp.obj
-.PHONY : circleList.cpp.obj
+IsContinuous.cpp.obj:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\H.dir\build.make Leecode/CMakeFiles/H.dir/IsContinuous.cpp.obj
+.PHONY : IsContinuous.cpp.obj
 
-circleList.i: circleList.cpp.i
+IsContinuous.i: IsContinuous.cpp.i
 
-.PHONY : circleList.i
+.PHONY : IsContinuous.i
 
 # target to preprocess a source file
-circleList.cpp.i:
-	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\F.dir\build.make Leecode/CMakeFiles/F.dir/circleList.cpp.i
-.PHONY : circleList.cpp.i
+IsContinuous.cpp.i:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\H.dir\build.make Leecode/CMakeFiles/H.dir/IsContinuous.cpp.i
+.PHONY : IsContinuous.cpp.i
 
-circleList.s: circleList.cpp.s
+IsContinuous.s: IsContinuous.cpp.s
 
-.PHONY : circleList.s
+.PHONY : IsContinuous.s
 
 # target to generate assembly for a file
-circleList.cpp.s:
-	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\F.dir\build.make Leecode/CMakeFiles/F.dir/circleList.cpp.s
-.PHONY : circleList.cpp.s
+IsContinuous.cpp.s:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\H.dir\build.make Leecode/CMakeFiles/H.dir/IsContinuous.cpp.s
+.PHONY : IsContinuous.cpp.s
+
+LastRemaining_Solution.obj: LastRemaining_Solution.cpp.obj
+
+.PHONY : LastRemaining_Solution.obj
+
+# target to build an object file
+LastRemaining_Solution.cpp.obj:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\G.dir\build.make Leecode/CMakeFiles/G.dir/LastRemaining_Solution.cpp.obj
+.PHONY : LastRemaining_Solution.cpp.obj
+
+LastRemaining_Solution.i: LastRemaining_Solution.cpp.i
+
+.PHONY : LastRemaining_Solution.i
+
+# target to preprocess a source file
+LastRemaining_Solution.cpp.i:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\G.dir\build.make Leecode/CMakeFiles/G.dir/LastRemaining_Solution.cpp.i
+.PHONY : LastRemaining_Solution.cpp.i
+
+LastRemaining_Solution.s: LastRemaining_Solution.cpp.s
+
+.PHONY : LastRemaining_Solution.s
+
+# target to generate assembly for a file
+LastRemaining_Solution.cpp.s:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\G.dir\build.make Leecode/CMakeFiles/G.dir/LastRemaining_Solution.cpp.s
+.PHONY : LastRemaining_Solution.cpp.s
 
 fristChar.obj: fristChar.cpp.obj
 
@@ -374,10 +416,14 @@ help:
 	@echo ... D
 	@echo ... edit_cache
 	@echo ... E
-	@echo ... F
-	@echo ... circleList.obj
-	@echo ... circleList.i
-	@echo ... circleList.s
+	@echo ... G
+	@echo ... H
+	@echo ... IsContinuous.obj
+	@echo ... IsContinuous.i
+	@echo ... IsContinuous.s
+	@echo ... LastRemaining_Solution.obj
+	@echo ... LastRemaining_Solution.i
+	@echo ... LastRemaining_Solution.s
 	@echo ... fristChar.obj
 	@echo ... fristChar.i
 	@echo ... fristChar.s
