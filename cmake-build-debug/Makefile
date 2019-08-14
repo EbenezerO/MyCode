@@ -123,6 +123,19 @@ MyCode/fast:
 .PHONY : MyCode/fast
 
 #=============================================================================
+# Target rules for targets named I
+
+# Build rule for target.
+I : cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 I
+.PHONY : I
+
+# fast build rule for target.
+I/fast:
+	$(MAKE) -f Leecode\CMakeFiles\I.dir\build.make Leecode/CMakeFiles/I.dir/build
+.PHONY : I/fast
+
+#=============================================================================
 # Target rules for targets named A
 
 # Build rule for target.
@@ -188,6 +201,19 @@ E/fast:
 .PHONY : E/fast
 
 #=============================================================================
+# Target rules for targets named F
+
+# Build rule for target.
+F : cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 F
+.PHONY : F
+
+# fast build rule for target.
+F/fast:
+	$(MAKE) -f Leecode\CMakeFiles\F.dir\build.make Leecode/CMakeFiles/F.dir/build
+.PHONY : F/fast
+
+#=============================================================================
 # Target rules for targets named G
 
 # Build rule for target.
@@ -249,11 +275,13 @@ help:
 	@echo ... MyCode
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... I
 	@echo ... A
 	@echo ... B
 	@echo ... C
 	@echo ... D
 	@echo ... E
+	@echo ... F
 	@echo ... G
 	@echo ... H
 	@echo ... main.obj

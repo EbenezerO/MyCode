@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = E:\Leecode_offer\MyCode\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Clion\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -76,6 +65,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"D:\Clion\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -108,6 +108,21 @@ preinstall/fast:
 depend:
 	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+Leecode/CMakeFiles/I.dir/rule:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 Leecode/CMakeFiles/I.dir/rule
+.PHONY : Leecode/CMakeFiles/I.dir/rule
+
+# Convenience name for target.
+I : Leecode/CMakeFiles/I.dir/rule
+
+.PHONY : I
+
+# fast build rule for target.
+I/fast:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\I.dir\build.make Leecode/CMakeFiles/I.dir/build
+.PHONY : I/fast
 
 # Convenience name for target.
 Leecode/CMakeFiles/A.dir/rule:
@@ -183,6 +198,21 @@ E : Leecode/CMakeFiles/E.dir/rule
 E/fast:
 	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\E.dir\build.make Leecode/CMakeFiles/E.dir/build
 .PHONY : E/fast
+
+# Convenience name for target.
+Leecode/CMakeFiles/F.dir/rule:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 Leecode/CMakeFiles/F.dir/rule
+.PHONY : Leecode/CMakeFiles/F.dir/rule
+
+# Convenience name for target.
+F : Leecode/CMakeFiles/F.dir/rule
+
+.PHONY : F
+
+# fast build rule for target.
+F/fast:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\F.dir\build.make Leecode/CMakeFiles/F.dir/build
+.PHONY : F/fast
 
 # Convenience name for target.
 Leecode/CMakeFiles/G.dir/rule:
@@ -295,6 +325,33 @@ fristChar.cpp.s:
 	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\E.dir\build.make Leecode/CMakeFiles/E.dir/fristChar.cpp.s
 .PHONY : fristChar.cpp.s
 
+hasPathDFS.obj: hasPathDFS.cpp.obj
+
+.PHONY : hasPathDFS.obj
+
+# target to build an object file
+hasPathDFS.cpp.obj:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\I.dir\build.make Leecode/CMakeFiles/I.dir/hasPathDFS.cpp.obj
+.PHONY : hasPathDFS.cpp.obj
+
+hasPathDFS.i: hasPathDFS.cpp.i
+
+.PHONY : hasPathDFS.i
+
+# target to preprocess a source file
+hasPathDFS.cpp.i:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\I.dir\build.make Leecode/CMakeFiles/I.dir/hasPathDFS.cpp.i
+.PHONY : hasPathDFS.cpp.i
+
+hasPathDFS.s: hasPathDFS.cpp.s
+
+.PHONY : hasPathDFS.s
+
+# target to generate assembly for a file
+hasPathDFS.cpp.s:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\I.dir\build.make Leecode/CMakeFiles/I.dir/hasPathDFS.cpp.s
+.PHONY : hasPathDFS.cpp.s
+
 hasSubtree.obj: hasSubtree.cpp.obj
 
 .PHONY : hasSubtree.obj
@@ -348,6 +405,33 @@ isNumeric.s: isNumeric.cpp.s
 isNumeric.cpp.s:
 	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\D.dir\build.make Leecode/CMakeFiles/D.dir/isNumeric.cpp.s
 .PHONY : isNumeric.cpp.s
+
+movingCount.obj: movingCount.cpp.obj
+
+.PHONY : movingCount.obj
+
+# target to build an object file
+movingCount.cpp.obj:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\F.dir\build.make Leecode/CMakeFiles/F.dir/movingCount.cpp.obj
+.PHONY : movingCount.cpp.obj
+
+movingCount.i: movingCount.cpp.i
+
+.PHONY : movingCount.i
+
+# target to preprocess a source file
+movingCount.cpp.i:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\F.dir\build.make Leecode/CMakeFiles/F.dir/movingCount.cpp.i
+.PHONY : movingCount.cpp.i
+
+movingCount.s: movingCount.cpp.s
+
+.PHONY : movingCount.s
+
+# target to generate assembly for a file
+movingCount.cpp.s:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\F.dir\build.make Leecode/CMakeFiles/F.dir/movingCount.cpp.s
+.PHONY : movingCount.cpp.s
 
 multiply.obj: multiply.cpp.obj
 
@@ -409,15 +493,17 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... I
 	@echo ... A
-	@echo ... rebuild_cache
 	@echo ... B
 	@echo ... C
 	@echo ... D
-	@echo ... edit_cache
 	@echo ... E
+	@echo ... F
 	@echo ... G
 	@echo ... H
+	@echo ... edit_cache
+	@echo ... rebuild_cache
 	@echo ... IsContinuous.obj
 	@echo ... IsContinuous.i
 	@echo ... IsContinuous.s
@@ -427,12 +513,18 @@ help:
 	@echo ... fristChar.obj
 	@echo ... fristChar.i
 	@echo ... fristChar.s
+	@echo ... hasPathDFS.obj
+	@echo ... hasPathDFS.i
+	@echo ... hasPathDFS.s
 	@echo ... hasSubtree.obj
 	@echo ... hasSubtree.i
 	@echo ... hasSubtree.s
 	@echo ... isNumeric.obj
 	@echo ... isNumeric.i
 	@echo ... isNumeric.s
+	@echo ... movingCount.obj
+	@echo ... movingCount.i
+	@echo ... movingCount.s
 	@echo ... multiply.obj
 	@echo ... multiply.i
 	@echo ... multiply.s

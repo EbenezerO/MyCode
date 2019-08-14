@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/F.dir/circleList.cpp.obj"
+  "CMakeFiles/F.dir/movingCount.cpp.obj"
   "F.pdb"
   "F.exe"
   "F.exe.manifest"

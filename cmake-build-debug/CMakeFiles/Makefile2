@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = E:\Leecode_offer\MyCode\cmake-build-debug
 CMakeFiles/MyCode.dir/all:
 	$(MAKE) -f CMakeFiles\MyCode.dir\build.make CMakeFiles/MyCode.dir/depend
 	$(MAKE) -f CMakeFiles\MyCode.dir\build.make CMakeFiles/MyCode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Leecode_offer\MyCode\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target MyCode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Leecode_offer\MyCode\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target MyCode"
 .PHONY : CMakeFiles/MyCode.dir/all
 
 # Include target in all.
@@ -104,22 +104,26 @@ clean: CMakeFiles/MyCode.dir/clean
 # Directory level rules for directory Leecode
 
 # Convenience name for "all" pass in the directory.
+Leecode/all: Leecode/CMakeFiles/I.dir/all
 Leecode/all: Leecode/CMakeFiles/A.dir/all
 Leecode/all: Leecode/CMakeFiles/B.dir/all
 Leecode/all: Leecode/CMakeFiles/C.dir/all
 Leecode/all: Leecode/CMakeFiles/D.dir/all
 Leecode/all: Leecode/CMakeFiles/E.dir/all
+Leecode/all: Leecode/CMakeFiles/F.dir/all
 Leecode/all: Leecode/CMakeFiles/G.dir/all
 Leecode/all: Leecode/CMakeFiles/H.dir/all
 
 .PHONY : Leecode/all
 
 # Convenience name for "clean" pass in the directory.
+Leecode/clean: Leecode/CMakeFiles/I.dir/clean
 Leecode/clean: Leecode/CMakeFiles/A.dir/clean
 Leecode/clean: Leecode/CMakeFiles/B.dir/clean
 Leecode/clean: Leecode/CMakeFiles/C.dir/clean
 Leecode/clean: Leecode/CMakeFiles/D.dir/clean
 Leecode/clean: Leecode/CMakeFiles/E.dir/clean
+Leecode/clean: Leecode/CMakeFiles/F.dir/clean
 Leecode/clean: Leecode/CMakeFiles/G.dir/clean
 Leecode/clean: Leecode/CMakeFiles/H.dir/clean
 
@@ -129,6 +133,43 @@ Leecode/clean: Leecode/CMakeFiles/H.dir/clean
 Leecode/preinstall:
 
 .PHONY : Leecode/preinstall
+
+#=============================================================================
+# Target rules for target Leecode/CMakeFiles/I.dir
+
+# All Build rule for target.
+Leecode/CMakeFiles/I.dir/all:
+	$(MAKE) -f Leecode\CMakeFiles\I.dir\build.make Leecode/CMakeFiles/I.dir/depend
+	$(MAKE) -f Leecode\CMakeFiles\I.dir\build.make Leecode/CMakeFiles/I.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Leecode_offer\MyCode\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target I"
+.PHONY : Leecode/CMakeFiles/I.dir/all
+
+# Include target in all.
+all: Leecode/CMakeFiles/I.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+Leecode/CMakeFiles/I.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Leecode_offer\MyCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 Leecode/CMakeFiles/I.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Leecode_offer\MyCode\cmake-build-debug\CMakeFiles 0
+.PHONY : Leecode/CMakeFiles/I.dir/rule
+
+# Convenience name for target.
+I : Leecode/CMakeFiles/I.dir/rule
+
+.PHONY : I
+
+# clean rule for target.
+Leecode/CMakeFiles/I.dir/clean:
+	$(MAKE) -f Leecode\CMakeFiles\I.dir\build.make Leecode/CMakeFiles/I.dir/clean
+.PHONY : Leecode/CMakeFiles/I.dir/clean
+
+# clean rule for target.
+clean: Leecode/CMakeFiles/I.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target Leecode/CMakeFiles/A.dir
@@ -316,13 +357,50 @@ clean: Leecode/CMakeFiles/E.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target Leecode/CMakeFiles/F.dir
+
+# All Build rule for target.
+Leecode/CMakeFiles/F.dir/all:
+	$(MAKE) -f Leecode\CMakeFiles\F.dir\build.make Leecode/CMakeFiles/F.dir/depend
+	$(MAKE) -f Leecode\CMakeFiles\F.dir\build.make Leecode/CMakeFiles/F.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Leecode_offer\MyCode\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target F"
+.PHONY : Leecode/CMakeFiles/F.dir/all
+
+# Include target in all.
+all: Leecode/CMakeFiles/F.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+Leecode/CMakeFiles/F.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Leecode_offer\MyCode\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 Leecode/CMakeFiles/F.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Leecode_offer\MyCode\cmake-build-debug\CMakeFiles 0
+.PHONY : Leecode/CMakeFiles/F.dir/rule
+
+# Convenience name for target.
+F : Leecode/CMakeFiles/F.dir/rule
+
+.PHONY : F
+
+# clean rule for target.
+Leecode/CMakeFiles/F.dir/clean:
+	$(MAKE) -f Leecode\CMakeFiles\F.dir\build.make Leecode/CMakeFiles/F.dir/clean
+.PHONY : Leecode/CMakeFiles/F.dir/clean
+
+# clean rule for target.
+clean: Leecode/CMakeFiles/F.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target Leecode/CMakeFiles/G.dir
 
 # All Build rule for target.
 Leecode/CMakeFiles/G.dir/all:
 	$(MAKE) -f Leecode\CMakeFiles\G.dir\build.make Leecode/CMakeFiles/G.dir/depend
 	$(MAKE) -f Leecode\CMakeFiles\G.dir\build.make Leecode/CMakeFiles/G.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Leecode_offer\MyCode\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target G"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Leecode_offer\MyCode\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target G"
 .PHONY : Leecode/CMakeFiles/G.dir/all
 
 # Include target in all.
@@ -359,7 +437,7 @@ clean: Leecode/CMakeFiles/G.dir/clean
 Leecode/CMakeFiles/H.dir/all:
 	$(MAKE) -f Leecode\CMakeFiles\H.dir\build.make Leecode/CMakeFiles/H.dir/depend
 	$(MAKE) -f Leecode\CMakeFiles\H.dir\build.make Leecode/CMakeFiles/H.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Leecode_offer\MyCode\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target H"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Leecode_offer\MyCode\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target H"
 .PHONY : Leecode/CMakeFiles/H.dir/all
 
 # Include target in all.
