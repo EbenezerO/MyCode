@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Leecode_offer/MyCode/Leecode/ReverseSentence.cpp
+iostream
+-
+string
+-
+vector
+-
+
