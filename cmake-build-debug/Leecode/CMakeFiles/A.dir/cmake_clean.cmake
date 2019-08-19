@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/A.dir/sheep.cpp.obj"
+  "CMakeFiles/A.dir/killMaster.cpp.obj"
   "A.pdb"
   "A.exe"
   "A.exe.manifest"

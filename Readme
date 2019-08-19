@@ -1,0 +1,177 @@
+输入一行字符串，包含空格
+string a;
+getline(cin.a);
+
+异或运算 ^
+与运算 &
+
+#<math.h> pow(a,b) a^b
+	  abs(a)  a的绝对值
+
+#<string> string a=str.substr(0,n);//字符串分割0-n-1的字符
+          string b=str.substr(n,len);
+          b+=a; //字符串拼接
+
+#<sstream> 可以对任意数据类型进行转化
+	string s="17"
+	ss<<s;
+        int out;
+        ss>>out;
+
+#<algorithm>
+1、 sort（begin，end，cmp），cmp参数可以没有，如果没有默认非降序排序。
+bool cmp（int a,int b）
+{
+　　return a>b;
+}
+2、建立堆：make_heap(_First, _Last, _Comp)
+默认是建立最大堆less<int>的。对int类型，可以在第三个参数传入greater<int>()得到最小堆。
+
+在堆中添加数据：push_heap (_First, _Last) 在first添加数据
+要先在容器中加入数据，再调用push_heap ()
+
+在堆中删除数据：pop_heap(_First, _Last) 弹出first数据
+要先调用pop_heap()再在容器中删除数据
+
+堆排序：sort_heap(_First, _Last)
+排序之后就不再是一个合法的heap了
+
+
+#include<list>
+assign() 给list赋值
+back() 返回最后一个元素
+begin() 返回指向第一个元素的迭代器
+clear() 删除所有元素
+empty() 如果list是空的则返回true
+end() 返回末尾的迭代器
+erase() 删除一个元素
+front() 返回第一个元素
+get_allocator() 返回list的配置器
+insert() 插入一个元素到list中
+max_size() 返回list能容纳的最大元素数量
+merge() 合并两个list
+pop_back() 删除最后一个元素
+pop_front() 删除第一个元素
+push_back() 在list的末尾添加一个元素
+push_front() 在list的头部添加一个元素
+rbegin() 返回指向第一个元素的逆向迭代器
+remove() 从list删除元素
+remove_if() 按指定条件删除元素
+rend() 指向list末尾的逆向迭代器
+resize() 改变list的大小
+reverse() 把list的元素倒转
+size() 返回list中的元素个数
+sort() 给list排序
+splice() 合并两个list
+swap() 交换两个list
+unique() 删除list中重复的元素
+#include<set> set的元素是自动按key升序排序,所以不能对map用sort函数
+set<int> s    定义一个set容器 类型为int型
+s.begin()     返回指向第一个元素的迭代器
+s.clear()     清除所有元素
+s.count()     返回bool型,有返回1,无返回0
+s.empty()     如果集合为空，返回true
+s.end()       返回指向最后一个元素之后的迭代器，不是最后一个元素
+s.erase()     删除集合中的元素
+s.find()      返回一个指向被查找到元素的迭代器，如果没找到则返回end()
+s.insert()    在集合中插入元素
+s.size()      集合中元素的数目
+s.swap()      交换两个集合变量
+
+#include<map>
+1、声明及其初始化
+map<key, value> m;//创建一个名为m的空map对象，其键和值的类型分别为key和value。
+map<key, value> m(m2);//创建m2的副本m，m与m2必须有相同的键类型和值类型。
+map<key, value> m(b,e);//创建map类型的对象m，存储迭代器b和e标记的范围内所有元素的副本，元素的类型必须能转换为pair。
+map<key, value, comp> mp;//comp可选，为键值对存放策略，即键的比较函数，默认标准库使用键类型定义的 < 操作符来实现键的比较。所用的比较函数必须在键类型上定义严格的弱排序，可将其理解为键类型数据上的“小于”关系。在实际应用中，键类型必须能定义 < 操作符。对于键类型，其唯一的约束就是必须支持 < 操作符。
+2. map添加数据；
+   map<int ,string> maplive;
+   1.maplive.insert(pair<int,string>(102,"aclive"));
+   2.maplive.insert(map<int,string>::value_type(321,"hai"));
+   3, maplive[112]="April";//map中最简单最常用的插入添加！
+3，map中元素的查找：
+   find()函数返回一个迭代器指向键值为key的元素，如果没找到就返回指向map尾部的迭代器。
+   map<int ,string >::iterator l_it;;
+   l_it=maplive.find(112);
+   if(l_it==maplive.end())
+                cout<<"we do not find 112"<<endl;
+   else cout<<"wo find 112"<<endl;
+4、Map中的元素是自动按key升序排序,所以不能对map用sort函数
+
+      begin()          返回指向map头部的迭代器
+      clear(）         删除所有元素
+      count()          返回指定元素出现的次数
+      empty()          如果map为空则返回true
+      end()            返回指向map末尾的迭代器
+      equal_range()    返回特殊条目的迭代器对
+      erase(iterator l_it)          删除一个元素
+      find()           查找一个元素 find(key)函数返回一个迭代器指向键值为key的元素，如果没找到就返回指向map尾部的迭代器。
+      get_allocator()  返回map的配置器
+      insert()         插入元素
+      key_comp()       返回比较元素key的函数
+      lower_bound()    返回键值>=给定元素的第一个位置
+      max_size()       返回可以容纳的最大元素个数
+      rbegin()         返回一个指向map尾部的逆向迭代器
+      rend()           返回一个指向map头部的逆向迭代器
+      size()           返回map中元素的个数
+      swap()            交换两个map  Map中的swap不是一个容器中的元素交换，而是两个容器交换；
+      upper_bound()     返回键值>给定元素的第一个位置
+      value_comp()      返回比较元素value的函数
+
+队列；
+	#include <queue>
+ 1  定义一个queue变量：queue<Type> que
+ 2  查看该队列是否为空：que.empty() 为空则返回true，否则返回false
+ 3  将元素增加到队列尾：que.push(parameter)
+ 4  返回队列中拥有的元素个数：que.size()
+ 5  返回队列中队首元素：que.front()
+ 6  删除队首元素，无返回值：que.pop()
+ 7  返回队尾元素：que.back()
+
+栈：
+	#include <stack>
+  stack< int > s     //定义
+  s.empty();         //如果栈为空则返回true, 否则返回false;
+
+  s.size();          //返回栈中元素的个数
+
+  s.top();           //返回栈顶元素, 但不删除该元素
+
+  s.pop();           //弹出栈顶元素, 但不返回其值
+
+  s.push();          //将元素压入栈顶
+
+Vector：
+	#include<vector>
+
+（1）vector<vector<Point2f> > points; //定义一个二维数组
+     points[0].size();  //指第一行的列数
+     vector<int> B(n, 1); //初始化B大小为n，元素全为1
+
+(2)创建vector对象，vector<int> vec;
+
+(3)尾部插入数字：vec.push_back(a);
+
+   弹出最后一个元素：vec.pop_back();
+
+   指向最后一个元素值vec.back()
+
+(4)使用下标访问元素，cout<<vec[0]<<endl;记住下标是从0开始的。
+
+(5)使用迭代器访问元素.
+
+vector<int>::iterator it;
+
+for(it=vec.begin();it!=vec.end();it++)
+
+    cout<<*it<<endl;
+
+(6)插入元素：    vec.insert(vec.begin()+i,a);在第i+1个元素前面插入a;
+
+(7)删除元素：    vec.erase(vec.begin()+2);删除第3个元素
+
+vec.erase(vec.begin()+i,vec.end()+j);删除区间[i,j-1];区间从0开始
+
+(8)向量大小:vec.size();
+
+(9)清空:vec.clear();

@@ -244,6 +244,66 @@ H/fast:
 	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\H.dir\build.make Leecode/CMakeFiles/H.dir/build
 .PHONY : H/fast
 
+# Convenience name for target.
+Leecode/CMakeFiles/J.dir/rule:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 Leecode/CMakeFiles/J.dir/rule
+.PHONY : Leecode/CMakeFiles/J.dir/rule
+
+# Convenience name for target.
+J : Leecode/CMakeFiles/J.dir/rule
+
+.PHONY : J
+
+# fast build rule for target.
+J/fast:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\J.dir\build.make Leecode/CMakeFiles/J.dir/build
+.PHONY : J/fast
+
+# Convenience name for target.
+Leecode/CMakeFiles/K.dir/rule:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 Leecode/CMakeFiles/K.dir/rule
+.PHONY : Leecode/CMakeFiles/K.dir/rule
+
+# Convenience name for target.
+K : Leecode/CMakeFiles/K.dir/rule
+
+.PHONY : K
+
+# fast build rule for target.
+K/fast:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\K.dir\build.make Leecode/CMakeFiles/K.dir/build
+.PHONY : K/fast
+
+# Convenience name for target.
+Leecode/CMakeFiles/L.dir/rule:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 Leecode/CMakeFiles/L.dir/rule
+.PHONY : Leecode/CMakeFiles/L.dir/rule
+
+# Convenience name for target.
+L : Leecode/CMakeFiles/L.dir/rule
+
+.PHONY : L
+
+# fast build rule for target.
+L/fast:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\L.dir\build.make Leecode/CMakeFiles/L.dir/build
+.PHONY : L/fast
+
+# Convenience name for target.
+Leecode/CMakeFiles/M.dir/rule:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 Leecode/CMakeFiles/M.dir/rule
+.PHONY : Leecode/CMakeFiles/M.dir/rule
+
+# Convenience name for target.
+M : Leecode/CMakeFiles/M.dir/rule
+
+.PHONY : M
+
+# fast build rule for target.
+M/fast:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\M.dir\build.make Leecode/CMakeFiles/M.dir/build
+.PHONY : M/fast
+
 IsContinuous.obj: IsContinuous.cpp.obj
 
 .PHONY : IsContinuous.obj
@@ -297,6 +357,60 @@ LastRemaining_Solution.s: LastRemaining_Solution.cpp.s
 LastRemaining_Solution.cpp.s:
 	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\G.dir\build.make Leecode/CMakeFiles/G.dir/LastRemaining_Solution.cpp.s
 .PHONY : LastRemaining_Solution.cpp.s
+
+MoreThanHalfNum_Solution.obj: MoreThanHalfNum_Solution.cpp.obj
+
+.PHONY : MoreThanHalfNum_Solution.obj
+
+# target to build an object file
+MoreThanHalfNum_Solution.cpp.obj:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\K.dir\build.make Leecode/CMakeFiles/K.dir/MoreThanHalfNum_Solution.cpp.obj
+.PHONY : MoreThanHalfNum_Solution.cpp.obj
+
+MoreThanHalfNum_Solution.i: MoreThanHalfNum_Solution.cpp.i
+
+.PHONY : MoreThanHalfNum_Solution.i
+
+# target to preprocess a source file
+MoreThanHalfNum_Solution.cpp.i:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\K.dir\build.make Leecode/CMakeFiles/K.dir/MoreThanHalfNum_Solution.cpp.i
+.PHONY : MoreThanHalfNum_Solution.cpp.i
+
+MoreThanHalfNum_Solution.s: MoreThanHalfNum_Solution.cpp.s
+
+.PHONY : MoreThanHalfNum_Solution.s
+
+# target to generate assembly for a file
+MoreThanHalfNum_Solution.cpp.s:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\K.dir\build.make Leecode/CMakeFiles/K.dir/MoreThanHalfNum_Solution.cpp.s
+.PHONY : MoreThanHalfNum_Solution.cpp.s
+
+ReverseSentence.obj: ReverseSentence.cpp.obj
+
+.PHONY : ReverseSentence.obj
+
+# target to build an object file
+ReverseSentence.cpp.obj:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\M.dir\build.make Leecode/CMakeFiles/M.dir/ReverseSentence.cpp.obj
+.PHONY : ReverseSentence.cpp.obj
+
+ReverseSentence.i: ReverseSentence.cpp.i
+
+.PHONY : ReverseSentence.i
+
+# target to preprocess a source file
+ReverseSentence.cpp.i:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\M.dir\build.make Leecode/CMakeFiles/M.dir/ReverseSentence.cpp.i
+.PHONY : ReverseSentence.cpp.i
+
+ReverseSentence.s: ReverseSentence.cpp.s
+
+.PHONY : ReverseSentence.s
+
+# target to generate assembly for a file
+ReverseSentence.cpp.s:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\M.dir\build.make Leecode/CMakeFiles/M.dir/ReverseSentence.cpp.s
+.PHONY : ReverseSentence.cpp.s
 
 fristChar.obj: fristChar.cpp.obj
 
@@ -406,6 +520,63 @@ isNumeric.cpp.s:
 	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\D.dir\build.make Leecode/CMakeFiles/D.dir/isNumeric.cpp.s
 .PHONY : isNumeric.cpp.s
 
+killMaster.obj: killMaster.cpp.obj
+
+.PHONY : killMaster.obj
+
+# target to build an object file
+killMaster.cpp.obj:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\A.dir\build.make Leecode/CMakeFiles/A.dir/killMaster.cpp.obj
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\L.dir\build.make Leecode/CMakeFiles/L.dir/killMaster.cpp.obj
+.PHONY : killMaster.cpp.obj
+
+killMaster.i: killMaster.cpp.i
+
+.PHONY : killMaster.i
+
+# target to preprocess a source file
+killMaster.cpp.i:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\A.dir\build.make Leecode/CMakeFiles/A.dir/killMaster.cpp.i
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\L.dir\build.make Leecode/CMakeFiles/L.dir/killMaster.cpp.i
+.PHONY : killMaster.cpp.i
+
+killMaster.s: killMaster.cpp.s
+
+.PHONY : killMaster.s
+
+# target to generate assembly for a file
+killMaster.cpp.s:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\A.dir\build.make Leecode/CMakeFiles/A.dir/killMaster.cpp.s
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\L.dir\build.make Leecode/CMakeFiles/L.dir/killMaster.cpp.s
+.PHONY : killMaster.cpp.s
+
+matchString.obj: matchString.cpp.obj
+
+.PHONY : matchString.obj
+
+# target to build an object file
+matchString.cpp.obj:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\J.dir\build.make Leecode/CMakeFiles/J.dir/matchString.cpp.obj
+.PHONY : matchString.cpp.obj
+
+matchString.i: matchString.cpp.i
+
+.PHONY : matchString.i
+
+# target to preprocess a source file
+matchString.cpp.i:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\J.dir\build.make Leecode/CMakeFiles/J.dir/matchString.cpp.i
+.PHONY : matchString.cpp.i
+
+matchString.s: matchString.cpp.s
+
+.PHONY : matchString.s
+
+# target to generate assembly for a file
+matchString.cpp.s:
+	cd /d E:\Leecode_offer\MyCode\cmake-build-debug && $(MAKE) -f Leecode\CMakeFiles\J.dir\build.make Leecode/CMakeFiles/J.dir/matchString.cpp.s
+.PHONY : matchString.cpp.s
+
 movingCount.obj: movingCount.cpp.obj
 
 .PHONY : movingCount.obj
@@ -502,6 +673,10 @@ help:
 	@echo ... F
 	@echo ... G
 	@echo ... H
+	@echo ... J
+	@echo ... K
+	@echo ... L
+	@echo ... M
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... IsContinuous.obj
@@ -510,6 +685,12 @@ help:
 	@echo ... LastRemaining_Solution.obj
 	@echo ... LastRemaining_Solution.i
 	@echo ... LastRemaining_Solution.s
+	@echo ... MoreThanHalfNum_Solution.obj
+	@echo ... MoreThanHalfNum_Solution.i
+	@echo ... MoreThanHalfNum_Solution.s
+	@echo ... ReverseSentence.obj
+	@echo ... ReverseSentence.i
+	@echo ... ReverseSentence.s
 	@echo ... fristChar.obj
 	@echo ... fristChar.i
 	@echo ... fristChar.s
@@ -522,6 +703,12 @@ help:
 	@echo ... isNumeric.obj
 	@echo ... isNumeric.i
 	@echo ... isNumeric.s
+	@echo ... killMaster.obj
+	@echo ... killMaster.i
+	@echo ... killMaster.s
+	@echo ... matchString.obj
+	@echo ... matchString.i
+	@echo ... matchString.s
 	@echo ... movingCount.obj
 	@echo ... movingCount.i
 	@echo ... movingCount.s

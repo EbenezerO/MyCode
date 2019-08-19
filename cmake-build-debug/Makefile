@@ -239,6 +239,58 @@ H/fast:
 	$(MAKE) -f Leecode\CMakeFiles\H.dir\build.make Leecode/CMakeFiles/H.dir/build
 .PHONY : H/fast
 
+#=============================================================================
+# Target rules for targets named J
+
+# Build rule for target.
+J : cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 J
+.PHONY : J
+
+# fast build rule for target.
+J/fast:
+	$(MAKE) -f Leecode\CMakeFiles\J.dir\build.make Leecode/CMakeFiles/J.dir/build
+.PHONY : J/fast
+
+#=============================================================================
+# Target rules for targets named K
+
+# Build rule for target.
+K : cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 K
+.PHONY : K
+
+# fast build rule for target.
+K/fast:
+	$(MAKE) -f Leecode\CMakeFiles\K.dir\build.make Leecode/CMakeFiles/K.dir/build
+.PHONY : K/fast
+
+#=============================================================================
+# Target rules for targets named L
+
+# Build rule for target.
+L : cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 L
+.PHONY : L
+
+# fast build rule for target.
+L/fast:
+	$(MAKE) -f Leecode\CMakeFiles\L.dir\build.make Leecode/CMakeFiles/L.dir/build
+.PHONY : L/fast
+
+#=============================================================================
+# Target rules for targets named M
+
+# Build rule for target.
+M : cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 M
+.PHONY : M
+
+# fast build rule for target.
+M/fast:
+	$(MAKE) -f Leecode\CMakeFiles\M.dir\build.make Leecode/CMakeFiles/M.dir/build
+.PHONY : M/fast
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -284,6 +336,10 @@ help:
 	@echo ... F
 	@echo ... G
 	@echo ... H
+	@echo ... J
+	@echo ... K
+	@echo ... L
+	@echo ... M
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
