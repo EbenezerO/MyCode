@@ -4,4 +4,5 @@ project(Leecode)
 set(CMAKE_CXX_STANDARD 14)
 
 add_subdirectory(Leecode)
-add_executable(MyCode main.cpp)
+add_subdirectory(Test)
+add_subdirectory(C++Learn)

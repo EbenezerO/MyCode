@@ -30,6 +30,19 @@ bool isSub(TreeNode *r1, TreeNode *r2) {//r2子结构
     }
 
 }
+vector<TreeNode*> mid;
+void midSearch(TreeNode *r)
+{
+    if(r== nullptr)
+        return;
+    if(r->left!= nullptr)
+        midSearch(r->left);
+
+    mid.push_back(r);
+
+    if(r->right!= nullptr)
+        midSearch(r->right);
+}
 
 bool HasSubtree(TreeNode* r1, TreeNode* r2)
 {
@@ -65,6 +78,12 @@ int main(){
     r1->left->left=new TreeNode(9);
     r1->left->right->left=new TreeNode(4);
     r1->left->right->right=new TreeNode(7);
-    cout<<HasSubtree(r1,r2);
+    //cout<<HasSubtree(r1,r2);
+
+    midSearch(r1);
+    for (int i = 0; i <mid.size() ; ++i) {
+        cout<<mid[i]->val<<" ";
+    }
+
     return  0;
 }

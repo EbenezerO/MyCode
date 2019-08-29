@@ -1,3 +1,10 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    return 0;
+}
+
 输入一行字符串，包含空格
 string a;
 getline(cin.a);
