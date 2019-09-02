@@ -6,6 +6,8 @@ set(debug)
 include_directories()
 
 add_executable(A3 sheep.cpp )
+add_executable(B3 shunfeng.cpp)
+add_executable(C3 wangyi.cpp)
 add_executable(L3 killMaster.cpp)
 add_executable(N3 meituan1.cpp)
 add_executable(O3 meituan2.cpp)
