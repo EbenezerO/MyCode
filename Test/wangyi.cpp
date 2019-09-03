@@ -52,7 +52,7 @@ int main()
     Node *h=new Node(3);
     h->next=new Node(7);
     h->next->next=new Node(9);
-    h=Reserver1(h);
+
     h=Reserver2(h);
     while (h!=NULL)
         cout<<h->val<<" ",h=h->next;
