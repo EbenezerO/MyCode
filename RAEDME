@@ -5,6 +5,7 @@ int main()
 {
     return 0;
 }
+求解所有可能的解 常用DFS， 求解最优解或解的个数 用动态规划，一定要求解出 状态转移方程 （递归+循环）
 
 输入一行字符串，包含空格
 string a;
@@ -15,12 +16,17 @@ getline(cin.a);
 
 #<math.h> pow(a,b) a^b
 	  abs(a)  a的绝对值
+      floor 朝负无穷方向取整，如floor(-1.3)=-2; floor(1.3)=1;
+      ceil朝正无穷方向取整，如ceil(-1.3)=-1; ceil(1.3)=2;
+      round四舍五入到最近的整数，如round(-1.3)=-1;round(-1.52)=-2;round(1.3)=1;round(1.52)=2
 
-#<string> string a=str.substr(0,n);//字符串分割0-n-1的字符
-          string b=str.substr(n,len);
+#<string> string a=str.substr(0,n);//字符串分割0开始长度为n的字符串 0->n-1
+          string b=str.substr(n,len-n); //字符串分割n开始长度为len-n的字符串 n->最后
           b+=a; //字符串拼接
+          string(s.rbegin(),s.rend());  //反向迭代器，返回字符串的反转
 
 #<sstream> 可以对任意数据类型进行转化
+stringstream ss;
 	string s="17"
 	ss<<s;
         int out;
@@ -73,6 +79,7 @@ sort() 给list排序
 splice() 合并两个list
 swap() 交换两个list
 unique() 删除list中重复的元素
+
 #include<set> set的元素是自动按key升序排序,所以不能对map用sort函数
 set<int> s    定义一个set容器 类型为int型
 s.begin()     返回指向第一个元素的迭代器
