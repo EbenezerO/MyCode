@@ -7,4 +7,3 @@ include_directories()
 
 add_executable(A5 kedaxunfei.cpp)
 add_executable(B5 58.cpp)
-add_executable(C5 laohu.cpp)
